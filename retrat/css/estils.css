@@ -1,14 +1,5 @@
 body{
 }
-.foto{
-  position: absolute;
-  background-image: url(../img/autoretrato.jpg);
-  background-size:cover;
-  background-repeat:no-repeat;
-  height: 400px;
-  width: 400px;
-  z-index: -1;
-}
 .cabell{
   width:530px;
   height:750px;
