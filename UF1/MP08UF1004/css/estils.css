@@ -1,0 +1,71 @@
+.taulell{
+  width: 800px;
+  height:800px;
+  background-color: brown;
+  position: relative;
+  margin: 0 auto;
+}
+
+.filera:nth-child(odd) .casella {
+  width: 100px;
+  height:100px;
+  background-color: yellow;
+  background-image:linear-gradient(45deg, yellow, orange);
+  float:left;
+}
+
+.filera:nth-child(odd) .casella:nth-child(even) {
+  background-color: black;
+  background-image:linear-gradient(black, black);
+}
+
+.filera:nth-child(even) .casella:nth-child(odd) {
+  width: 100px;
+  height:100px;
+  background-color: black;
+  background-image:linear-gradient(black, black);
+  float:left;
+  }
+
+  .filera:nth-child(even) .casella:nth-child(even) {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image:linear-gradient(45deg, yellow, orange);
+    float: left;
+    }
+
+b {
+  display:block;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+b:hover{
+  position:relative;
+  top:100px;
+}
+
+.filera:nth-child(n+3) b{ /*la filera que sigui la filla n+3, quan n es 0 es la tercera, quan n es 1 es la cuarta*/
+  display:none;
+}
+
+b:hover{
+  position:relative;
+  top:100px;
+}
+
+.filera:nth-child(n+7) b{
+  display:block;
+  background-color:grey;
+  background-image:radial-gradient(farthest-corner at 0px 0px, #999 10%, #333);
+  box-shadow: 2px 2px 5px black;
+}
+
+.filera:nth-child(n+7) b:hover {
+  position:relative;
+  top:-100px;
+}

@@ -1,0 +1,21 @@
+table {
+ background-color:
+ red; /* color de fons de la taula*/
+ border:solid 1px;/*marge de la caixa*/
+ width: 600px;/*amplada*/
+ font-family: helvetica;
+ font-size: 18px;/*tamaño de la tipo*/
+ margin:0 auto; /*para centrar la table*/
+ box-shadow:5px 5px 5px;
+} /*sombra de la caixa*/
+th {
+  background-color:
+  pink;
+  }
+
+
+td {
+  background-color:yellow;
+  height:40px;
+  }
+/*comando F es para dar ordenes*/

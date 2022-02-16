@@ -1,0 +1,146 @@
+body{
+  width: 1000px;
+  margin:0 auto;
+  background-image: linear-gradient(30deg, black,#128c7e, black);
+  font-family:'Raleway', sans-serif;
+}
+nav{
+  padding:1px;
+  width:740px;
+  display:inline-block;
+  margin:0;
+  height:65px;
+  width: 995px;
+  color:black;
+  text-align: right;
+  list-style-type: none;
+  background-color:white;
+}
+section{
+  color:white;
+  padding:40px;
+}
+h1{
+    font-size:120px;
+    position:relative;
+}
+h2{
+    font-size:55px;
+    position:relative;
+}
+.intro{
+  font-size:20px;
+  position:relative;
+}
+h3{
+    font-size:100px;
+    text-align: center;
+    color: black;
+}
+.icon{/*icon*/
+  margin: 0 0 0 20em;
+  background-size:100% 100%;
+  width: 200px;
+  height:200px;
+}
+.icont{/*icon*/
+  margin:0 0 0 20em;
+  background-size:100% 100%;
+  width: 200px;
+  height:200px;
+}
+img{
+  height: 70px;
+  width: 80px;
+  object-fit: contain;
+}
+h5{
+  color:black;
+  font-size:15px;
+  margin: 0 0 0em 25em;
+}
+.chat{
+  background-size:100% 100%;
+  width: 650px;
+  height:350px;
+  float:right;
+  margin:100px -100px 0 0;
+}
+a{
+  list-style-type: none;
+  display: inline-block;
+  padding:1px;
+  border-radius: 1px; /*borde punxeaguts*/
+  line-height:1px;
+  height:30px;
+  text-decoration: none;
+}
+a:link{/*te viene por defecto*/
+  color:black;
+}
+a:hover{ /*cambia de color cuando pasas elraton por encima*/
+color:#128c7e;
+}
+a:active{/*cuando las estas visitando*/
+}
+a:visited{/*cuando ya lo has visitado*/
+  color:black;
+}
+#entrada{ /*fotografia de entrada*/
+  height:100vh;
+  background-image:url(../img/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.funcionalitats, .captures, .financament, .companyia, .valoracio, .alternatives{
+  padding: 40px 10px 10px 10px;
+  float: left;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size:30px;
+  background-color:#128c7e;
+  height: 21em;
+  width: 28em;
+  margin: 1em 0 0 1em;
+}
+.info{ /*informació dels parrafs*/
+  font-size:18px;
+  font-weight: 300;
+  line-height:20px;
+}
+.cap{/* imatge de transferencia de fitxer (whatsapp)*/
+  width: 310px;
+  height: 310px;
+  padding-left:15px;
+}
+.whats{
+  width: 700px;
+  height: 700px;
+  padding-left:20px;
+  margin-top:-80px;
+}
+article{
+  float:left;
+  width:91.7%;
+  background-color:white;
+  padding:40px;
+}
+.arti{
+  float:left;
+  width:91.7%;
+  background-color:white;
+  background-image: linear-gradient(30deg, #89CFF0.,#128c7e, #89CFF0);
+  padding:40px;
+}
+.plataformes{
+  list-style-type: none;
+}
+.peu{
+  float:left;
+  width: 978px;
+  height:300px;
+}

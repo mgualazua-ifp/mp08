@@ -1,0 +1,47 @@
+body{
+  width: 1000px;
+  background-color:#222;
+  font-family:'Helvetica', sans-serif;
+  color:#ccc;
+
+}
+
+
+li{
+  list-style-type: none;
+  display: inline-block;
+  margin:0;
+  padding:6px;
+  border:1px solid black;
+  border-radius: 10px;
+  line-height:18px;
+
+}
+
+div{
+  float:left;
+  margin:5px;
+}
+
+div:hover{
+  opacity: 50%;
+}
+
+article{
+  color:#ccc;
+  font-size: 22px;
+
+
+}
+h1{
+  color:#ccc;
+  font-size: 14px;
+}
+h2{
+  color:#ccc;
+  font-size: 11px;
+}
+h3{
+  color:#ccc;
+  font-size: 11px;
+}

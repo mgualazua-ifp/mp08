@@ -1,0 +1,46 @@
+p {background-color: tomato;}
+
+div {
+  font-family: Arial, Sans-serif;
+  color: white;
+}
+
+h2 {
+  clear: both; /*esto es para separar los cuadros verdes de los rojos, porque o si no saldrian uno al lado del otro*/
+}
+
+
+.primer {
+  background-color: olive;
+  margin: 1em;
+  width: 5em;
+  float: left;
+  font-size: 3em;
+}
+
+
+
+.segon {
+  float: center;
+  font-size: 3em;
+  background-color:red;
+  height: 5em;
+  width: 30%;
+  margin: 1.6%; /*esto se ha calculado con 30% + 30% + 30% sobre un 100%, entonces seria 90%y sobrarian 10% el cual tendriamos que dividir por 6 (que son los margenes) por que cada 30% tiene dos margenes, el cual daria 1,6% */
+}
+
+.tercer {
+  background-color:blue;
+  float: left;
+  font-size: 3em;
+  width:5em;
+  margin: 1em;
+}
+
+.contenidor {
+  background-color: orange;
+  overflow: hidden;
+  width: 63em;
+  margin: 0 auto;
+
+}
