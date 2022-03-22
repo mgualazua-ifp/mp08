@@ -1,0 +1,449 @@
+body{
+  width: 1000px;
+  margin:0 auto;
+  background: black;
+  background-image: url(https://media1.giphy.com/media/xXaaIVQ4zyKWs/giphy.gif?cid=ecf05e4738l68qzhutel5u2zg7nquwnl2k60kpu8xw0kxqqn&rid=giphy.gif&ct=s);
+}
+.inicio{
+  color:white;
+  font-size: 25px;
+  font-family: 'Neucha', cursive;
+  background: black;
+  width:1060px;
+  height:50px;
+  margin:0;
+  text-align: right;
+  margin-left: -25px;
+  float:left;
+}
+.titulo{
+  font-family: 'Press Start 2P',cursive;
+  font-size: 76px;
+  color:rgba(160,239,255,1);
+  width:1070px;
+  height:95px;
+  margin-left: -1px;
+  background:;
+}
+.autor{
+  width:1000px;
+  height:35px;
+  background:;
+  font-family: 'Special Elite', cursive;
+  font-size: 35px;
+  color:red;
+  margin-top: 60px;
+  text-align: center;
+}
+.portada{
+  width:1000px;
+  height: 570px;
+  background:;
+  margin-top:10px;
+  margin: 0 auto;
+}
+.among{
+  width:1000px;
+  height:450px;
+  background:;
+  /*background-image:url(https://media2.giphy.com/media/Asb0LwwJP9o9Y2VZip/giphy.gif?cid=ecf05e47zabe1r0rla1cf2nl3knkx391ztwm1hs6kxla2u0d&rid=giphy.gif&ct=s);*/
+  background-image: url(https://nosomosnonos.com/wp-content/uploads/2022/01/2SE4O2uCWm.png);
+  /*background-image: url(https://media3.giphy.com/media/nHgPZrkdFQizBvUJ3m/giphy.gif?cid=ecf05e47zctp7okxx4dyol9tp0h2ebyor0sm909gs5s0yjsc&rid=giphy.gif&ct=g);*/
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.cajas{
+  width:1000px;
+  height: 300px;
+  margin-top:-100px;
+  background:;
+  font-family: 'Neucha', cursive;
+  color:white;
+  font-size: 85px;
+  text-align: center;
+}
+ul{
+  width: 950px;
+  background:;
+ margin:0 auto;
+ height:140px;
+ margin-left: -15px;
+}
+li{
+  width:160px;
+  height:100px;
+  padding:15px;
+  list-style-type: none;
+  display: inline-block;
+  background:black;
+  border:5px solid white;
+  border-radius: 15px;
+  line-height:70px;
+}
+li:hover{
+  border:5px solid #6C3;
+  border-radius: 15px;
+}
+
+a:link{
+  color:white;
+}
+a:active{
+  color:white;
+  opacity: 80%;
+}
+a:visited{
+  color:white;
+}
+p{
+  font-family: 'Special Elite', cursive;
+  background:;
+  margin-top: -13px;
+  color:red;
+  font-size: 22px;
+  text-align: center;
+}
+.previa{
+  width:1000px;
+  height: 700px;
+  background:;
+  margin: 0 auto;
+}
+.desliza{
+  width: 850px;
+  height: 440px;
+  background:;
+  border-radius: 200px;
+  margin-left: 50px;
+  border:15px solid white;
+  background-image:;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.primera{
+  width: 1000px;
+  height: 500px;
+  background:;
+  background-image: url(https://i.pinimg.com/originals/99/a1/a8/99a1a8419ba01d1a45968fc4c2bb5715.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.tripulantes{
+  width: 1000px;
+  height: 110px;
+  background:;
+  font-family: 'Press Start 2P',cursive;
+  color:rgba(160,239,255,1);
+  font-size: 67px;
+  margin-top: 40px;
+  text-align: center;
+}
+.seis{
+  width:1000px;
+  height: 920px;
+  background:;
+}
+.tablet{
+  width:1000px;
+  height: 870px;
+  background:grey;
+  border-radius:20px;
+  margin: 0 auto;
+  border:5px solid black;
+}
+.pantalla{
+  width:885px;
+  height: 810px;
+  background:#76ADD0;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top: -850px;
+  margin-left: 30px;
+  border:5px solid black;
+}
+.tripulante{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin-top:40px;
+  float: left;
+  margin-left: 22px;
+  border:5px solid black;
+}
+.tripulante1{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin-top:40px;
+  float: left;
+  margin-left: 22px;
+  border:5px solid black;
+}
+.tripulante2{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin-top:40px;
+  float: left;
+  margin-left: 22px;
+  border:5px solid black;
+}
+.tripulante3{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin-top:40px;
+  float: left;
+  margin-left: 22px;
+  border:5px solid black;
+}
+.tripulante4{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top:40px;
+  float: left;
+  margin-left: 20px;
+  border:5px solid black;
+}
+.tripulante5{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top:40px;
+  float: left;
+  margin-left: 20px;
+  border:5px solid black;
+}
+.tripulante6{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top:40px;
+  float: left;
+  margin-left: 20px;
+  border:5px solid black;
+}
+.tripulante7{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top:40px;
+  float: left;
+  margin-left: 20px;
+  border:5px solid black;
+}
+.tripulante8{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top:40px;
+  float: left;
+  margin-left: 20px;
+  border:5px solid black;
+}
+.tripulante9{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top:40px;
+  float: left;
+  margin-left: 20px;
+  border:5px solid black;
+}
+.tripulante10{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top:40px;
+  float: left;
+  margin-left: 20px;
+  border:5px solid black;
+}
+.tripulante11{
+  width:400px;
+  height: 80px;
+  background:#e4f4fd;
+  border-radius:20px;
+  margin: 0 auto;
+  margin-top:40px;
+  float: left;
+  margin-left: 20px;
+  border:5px solid black;
+}
+.boton{
+  width:40px;
+  height: 40px;
+  background:white;
+  border-radius:100%;
+  margin: 0 auto;
+  margin-top: -350px;
+  margin-right: 10px;
+  border:5px solid black;
+}
+.segunda{
+  width: 600px;
+  height: 500px;
+  background:;
+  background-image: url(https://media1.giphy.com/media/TgLmlRapUHwopkjC7P/giphy.gif?cid=ecf05e47xqucrb06k00ljnib27wfxyiqpxxonap9zgti31hd&rid=giphy.gif&ct=s);
+  background-size: cover;
+  margin-left: 200px;
+  background-repeat:no-repeat;
+}
+.muertos{
+  width: 1000px;
+  height: 200px;
+  background:;
+  font-family: 'Creepster', cursive;
+  font-size: 150px;
+  color:red;
+  text-align: center;
+}
+.corredor{
+  width:1000px;
+  height: 500px;
+  background:;
+  margin-top: 10px;
+}
+
+.cuadrado{
+  width:293px;
+  height: 290px;
+  background: #606573;
+  float:left;
+  border:20px solid red;
+}
+.cuadrado1{
+  width:293px;
+  height: 290px;
+  background: #606573;
+  float:left;
+  border:20px solid red;
+}
+.cuadrado2{
+  width:294px;
+  height: 290px;
+  background: #606573;
+  float:left;
+  border:20px solid red;
+}
+.tercera{
+  width: 1000px;
+  height: 470px;
+  background:#76ADD0;
+  border-radius:100px;
+  margin: 0 auto;
+  border:15px solid black;
+}
+.lupa{
+  width: 850px;
+  height: 440px;
+  background:blue;
+  border-radius: 200px;
+  margin-left: 50px;
+  border:15px solid white;
+  background-image: url(https://media0.giphy.com/media/0tyOasM1BTUtdyf4nt/giphy.gif?cid=ecf05e47xighlc2b8spkk2f13qz0ob92l4eetpvdhlmp33br&rid=giphy.gif&ct=g);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.sopechosos{
+  width: 1000px;
+  height: 250px;
+  background:;
+  font-family: 'Shizuru', cursive;
+  font-size: 120px;
+  color:blue;
+  margin-top: -7px;
+  text-align: center;
+}
+.ocho{
+  width:1000px;
+  height: 700px;
+  background:;
+}
+.sospechosos0{
+  width:450px;
+  height: 300px;
+  background:;
+  border-radius:50px;
+  float:left;
+  border:5px solid white;
+}
+.sospechosos1{
+  width:450px;
+  height: 300px;
+  background:;
+  border-radius: 50px;
+  float:left;
+  margin-left: 80px;
+  border:5px solid white;
+}
+.sospechosos2{
+  width:450px;
+  height: 300px;
+  background:;
+  border-radius:50px;
+  float:left;
+  margin-top: 50px;
+  border:5px solid white;
+}
+.sospechosos3{
+  width:450px;
+  height: 300px;
+  background:;
+  border-radius: 50px;
+  float:left;
+  margin-top: 50px;
+  margin-left: 80px;
+  border:5px solid white;
+}
+.cuarta{
+  width: 800px;
+  height: 600px;
+  background:;
+  background-image: url(https://media1.giphy.com/media/Asb0LwwJP9o9Y2VZip/giphy.gif?cid=ecf05e470c6b30u7dd8892qftuwkzipsw0r971381nqkofyz&rid=giphy.gif&ct=s);
+  background-size: cover;
+  margin-left: 100px;
+  background-repeat:no-repeat;
+}
+.impostor{
+  width: 1000px;
+  height: 150px;
+  background:;
+  font-family: 'Special Elite', cursive;
+  font-size: 127px;
+  color:red;
+  text-align: center;
+}
+.nueve{
+  width:1000px;
+  height: 600px;
+  background:;
+}
+
+.carcel{
+  width:1000px;
+  height: 600px;
+  background:white;
+  border-radius:20px;
+  margin: 0 auto;
+  border:10px solid black;
+}

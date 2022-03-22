@@ -384,3 +384,26 @@ h1{
   background-size: cover;
   border:2px solid #00ffff;
 }
+.among{
+  background:#e0e0e0;
+  width: 330px;
+  height: 300px;
+  float: left;
+  margin-left:20px;
+  margin-top: 80px;
+  border:2px solid #00ffff;
+  background-image: url(among.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.among:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
+  border:2px solid #00ffff;
+}
