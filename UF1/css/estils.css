@@ -7,7 +7,7 @@ body{
     background: #e0e0e0;
     max-width: 100%;
     margin:0 auto;
-    background-image: url(https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-image: url(luz.jpg);
     flex-direction: column;
     justify-content: center;
 }
@@ -68,12 +68,14 @@ nav li:hover{
   margin: 0 auto;
   background:;
   height: 120px;
-  font-size: 30px;
-  text-align: center;
-  color: gold;
   font-size: 90px;
+  text-align: center;
   font-family: 'Noto Serif Display', serif;
+  letter-spacing:-2px;
+  color: #00ffff;
 }
+
+
 .letra{
   width: 1085px;
   margin: 0 auto;
@@ -92,7 +94,7 @@ h1{
   background:;
   margin-top: 320px;
   font-size: 20px;
-  color:gold;
+  color:#00ffff;
 }
 
 .examen{
@@ -102,7 +104,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 20px;
-  border:2px solid gold;
+  background-image: url(captura1.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  border:2px solid #00ffff;
+}
+.examen:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .horario{
   background:#e0e0e0;
@@ -111,7 +126,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 20px;
-  border:2px solid gold;
+  background-image: url(2.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  border:2px solid #00ffff;
+}
+.horario:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .prova{
   background:#e0e0e0;
@@ -120,7 +148,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 20px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(3.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.prova:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .feedly{
   background:#e0e0e0;
@@ -129,7 +170,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(4.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.feedly:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .comic{
   background:#e0e0e0;
@@ -138,7 +192,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(5.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.comic:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .floata{
   background:#e0e0e0;
@@ -147,7 +214,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(6.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.floata:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .floatb{
   background:#e0e0e0;
@@ -156,7 +236,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(7.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.floatb:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .floatc{
   background:#e0e0e0;
@@ -165,7 +258,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(8.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.floatc:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .escacs{
   background:#e0e0e0;
@@ -174,7 +280,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(9.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.escacs:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .aplicacio{
   background:#e0e0e0;
@@ -183,7 +302,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(10.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.aplicacio:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .floreta{
   background:#e0e0e0;
@@ -192,7 +324,20 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(11.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.floreta:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .retrat{
   background:#e0e0e0;
@@ -201,5 +346,41 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #00ffff;
+  background-image: url(12.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.retrat:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.examencorre{
+  background:#e0e0e0;
+  width: 330px;
+  height: 300px;
+  float: left;
+  margin-left:20px;
+  margin-top: 80px;
+  border:2px solid #00ffff;
+  background-image: url(captura1.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.examencorre:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media0.giphy.com/media/26n6CWImwECKu3fy0/giphy.gif?cid=ecf05e47ys03y71mks1c8h8rcp5bix7zgjaqkiy25aev0amg&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
+  border:2px solid #00ffff;
 }

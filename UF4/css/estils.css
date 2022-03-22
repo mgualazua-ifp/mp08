@@ -71,7 +71,7 @@ nav li:hover{
   height: 120px;
   font-size: 30px;
   text-align: center;
-  color: gold;
+  color: #b246f2;
   font-size: 90px;
   font-family: 'Noto Serif Display', serif;
 }
@@ -93,7 +93,7 @@ h1{
   background:;
   margin-top: 320px;
   font-size: 20px;
-  color:gold;
+  color:#b246f2;
 }
 
 .responsive{
@@ -103,10 +103,23 @@ h1{
   float: left;
   margin-left:20px;
   margin-top: 20px;
-  border:2px solid gold;
+  border:2px solid #b246f2;
+  background-image:url(1.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.responsive:hover{
+  background:black;
+  opacity: 60%;
+  width:330px;
+  height:300px;
+  transition: all 0.3s linear;
+  background-image: url(https://media4.giphy.com/media/3oKIPy2jIv7yK1v7iM/giphy.gif?cid=ecf05e47eonttw2cv8zg3kc1zfecbtnws9q0eakxs2knujir&rid=giphy.gif&ct=g);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
-.horario{
+.carga{
   background:#e0e0e0;
   width: 330px;
   height: 300px;
@@ -116,95 +129,5 @@ h1{
   background-image:url(https://media2.giphy.com/media/6036p0cTnjUrNFpAlr/giphy.gif?cid=ecf05e476pk46pawhh1wizk30vwpzdi5175zbt2rqy8utcqg&rid=giphy.gif&ct=g);
   background-repeat:no-repeat;
   background-size: cover;
-  border:2px solid gold;
-}
-.prova{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 20px;
-  border:2px solid gold;
-}
-.feedly{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
-}
-.comic{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
-}
-.floata{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
-}
-.floatb{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
-}
-.floatc{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
-}
-.escacs{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
-}
-.aplicacio{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
-}
-.floreta{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
-}
-.retrat{
-  background:#e0e0e0;
-  width: 330px;
-  height: 300px;
-  float: left;
-  margin-left:20px;
-  margin-top: 80px;
-  border:2px solid gold;
+  border:2px solid #b246f2;
 }

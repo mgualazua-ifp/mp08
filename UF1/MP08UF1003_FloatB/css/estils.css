@@ -18,10 +18,8 @@ h2 {
   font-size: 3em;
 }
 
-
-
 .segon {
-  float: center;
+  float: left;
   font-size: 3em;
   background-color:red;
   height: 5em;
