@@ -39,7 +39,6 @@ p{
 button{
     width: 48px;
     height: 40px;
-    background-color:;
     transition: all 0.3s ease 0s;
     border-radius: 17px;
     border:1.5px solid #b246f2;
@@ -47,6 +46,7 @@ button{
     background-repeat:no-repeat;
     background-size: cover;
 }
+
 
 li{
     display: inline-block;
