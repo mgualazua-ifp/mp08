@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+  background-color:pink;
+
+}
+
+.base{
+  background-color:;
+  width: 960px;
+  margin:0 auto;
+}
+
+.titulo{
+  width: 960px;
+  height: 100px;
+  background-color:;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  font-size:65px;
+  margin-top:50px;
+}
+iframe{
+  width: 970px;
+  height: 589px;
+  background:;
+  margin-top:-90px;
+}
+h2{
+  color:black;
+}
+h3{
+  color:grey;
+}
+.caixes{
+  width: 960px;
+  height: 780px;
+  background-color:;
+}
+h1{
+  background:white;
+  margin-top: 200px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color:black;
+  width: 303px;
+  height:40px;
+  position: absolute;
+  text-align: left;
+}
+.pulp{
+  background:#e0e0e0;
+  width: 303px;
+  height: 200px;
+  margin-left: -35px;
+  float: left;
+  background-image:url(../img/small/small_pulp.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+}
+.pulp:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+
+.taxi{
+  background:#e0e0e0;
+  width: 303px;
+  height: 200px;
+  float: left;
+  margin-left:20px;
+  background-image:url(../img/small/small_taxi.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+}
+.taxi:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+.gold{
+  background:#e0e0e0;
+  width: 303px;
+  height: 240px;
+  float: left;
+  margin-left:20px;
+  background-image:url(../img/small/small_bond.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+}
+.gold:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+.ghost{
+  background:#e0e0e0;
+  width: 303px;
+  height: 240px;
+  float: left;
+  margin-left:-35px;
+  margin-top: 20px;
+  background-image:url(../img/small/small_ghost.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+}
+.ghost:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+.mr{
+  background:#e0e0e0;
+  width: 303px;
+  height: 240px;
+  float: left;
+  margin-left:20px;
+  margin-top: 20px;
+  background-image:url(../img/small/small_bean.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+}
+.mr:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+.back{
+  background:#e0e0e0;
+  width: 303px;
+  height: 240px;
+  float: left;
+  margin-left:20px;
+  margin-top: 20px;
+  background-image:url(../img/small/small_back.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+}
+.back:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+.knight{
+  background:#e0e0e0;
+  width: 303px;
+  height: 240px;
+  float: left;
+  margin-left:-35px;
+  margin-top: 20px;
+  background-image:url(../img/small/small_rider.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+
+}
+.knight:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+.the{
+  background:#e0e0e0;
+  width: 303px;
+  height: 240px;
+  float: left;
+  margin-left:20px;
+  margin-top: 20px;
+  background-image:url(../img/small/small_team.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+}
+.the:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+.breaking{
+  background:#e0e0e0;
+  width: 303px;
+  height: 240px;
+  float: left;
+  margin-left:20px;
+  margin-top: 20px;
+  background-image:url(../img/small/small_break.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 50%;
+}
+.breaking:hover{
+  background:;
+  opacity: 100%;
+  width:303px;
+  height:200px;
+  transition: all 0.3s linear;
+transform:rotate(360deg);
+}
+.pie{
+  width: 960px;
+  height: 220px;
+  background-color:;
+}
+.logo{
+  width: 200px;
+  height: 200px;
+  margin-left: 384px;
+  background-color:;
+  background-image:url(../img/logo_carsandfilms.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
