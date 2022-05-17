@@ -1,0 +1,110 @@
+@media screen and (max-width:750px){
+  body{
+    padding: 0;
+    margin: 0;
+    background:#9CD1BA ;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+  }
+  #preloader{
+    background:#9CD1BA url(images/loader.png) no-repeat center center;
+    background-size:30%;
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index:100;
+  }
+/*----------video y calendario----------------*/
+  .vica{
+    width: 100%;
+    height: 50px;
+    background:;
+    margin: 0 auto;
+  }
+
+.vica h1{
+      font-family:'Montserrat', sans-serif;
+      font-size: 30px;
+      text-align: center;
+
+      margin:20px 20px 25px 18px;
+    }
+  /*---------CATEGORIAS----------------*/
+
+
+  h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin:20px 20px 25px 18px;
+  }
+
+  .fotoperfil{
+    width: 50px;
+    height: 40px;
+    background: red;
+  }
+
+  .retos{
+    width: 500px;
+    height: 140px;
+    background: white;
+    margin: 0 auto;
+    margin-top:30px;
+    border-radius: 20px;
+  }
+.configuracio{
+  width: 500px;
+  height: 440px;
+  background:white ;
+  margin: 0 auto;
+  margin-top:30px;
+  list-style: none;
+}
+  .configuracio .botones{
+    width: 500px;
+    height: 57px;
+    background: #c4c4c4;
+    margin: 0 auto;
+    box-shadow: 10px 5px 5px grey;
+  }
+  .configuracio h1{
+  color:black;
+  }
+
+.configuracio .botones a{
+  text-decoration: none;
+  list-style: none;
+}
+
+.configuracio #contra{
+  margin-top:10px;
+}
+.configuracio #noti{
+  margin-top:30px;
+}
+.configuracio #eliminar{
+  margin-top:30px;
+}
+/*----------menu fijo----------------*/
+  .menu{
+    list-style: none;
+    display:Flex;
+    justify-content:  space-around;
+    background: white;
+    margin-top:auto;
+  }
+
+  .menu li a{
+    text-decoration: none;
+    color:black;
+    padding:15px;
+    display:block;
+    margin-left: -45px;
+  }
+
+  .menu li a:hover{
+    background:pink;
+  }
