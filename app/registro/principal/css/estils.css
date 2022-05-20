@@ -1,0 +1,274 @@
+body{
+  background:#9CD1BA ;
+  }
+
+@media screen and (max-width:750px){
+  body{
+    padding: 0;
+    margin: 0 auto;
+    background:#9CD1BA ;
+    display:flex;
+    flex-direction:column;
+    min-height:100%;
+  }
+  #preloader{
+    background:#9CD1BA url(images/loader.png) no-repeat center center;
+    background-size:30%;
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index:100;
+  }
+/*----------video y calendario----------------*/
+  .vica{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display:Flex;
+    justify-content: space-between;
+    background:;
+    margin-top: 20px;
+  }
+
+  .vica li a{
+    text-decoration: none;
+    display:block;
+  }
+
+  .nombre{
+    width: 200px;
+    height: 40px;
+    float:left;
+    margin-left: 10px;
+    background:;
+    margin-top: -10px;
+  }
+
+    h1{
+      font-family:'Montserrat', sans-serif;
+      font-size: 30px;
+      text-align: center;
+      color: white;
+    }
+
+  .video{
+    width: 41px;
+    height: 40px;
+    float:left;
+    margin-left: 20px;
+    background:;
+    background-image: url(images/video.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  .calendario{
+    width: 41px;
+    height: 40px;
+    float:right;
+    margin-right: 20px;
+    list-style: none;
+    background:;
+    background-image: url(images/calendario.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  /*---------CATEGORIAS----------------*/
+
+  .categorias{
+    width: 100%;
+    height: 562px;
+    margin:0 auto;
+    background:;
+    margin-top: 10px;
+    list-style: none;
+
+  }
+
+  .categorias li a{
+    text-decoration: none;
+    display:block;
+  }
+
+  h4{
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 4rem;
+    color: white;
+    margin:20px 20px 25px 18px;
+  }
+
+  }
+  .retos{
+    width: 460px;
+    height: 165px;
+    background:black;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 15px;
+    background-image: url(images/1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 5px 5px grey;
+    border:1.5px solid white;
+  }
+  .retos:hover{
+    width: 460px;
+    height: 165px;
+    opacity: 70%;
+    transition: 2s;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 15px;
+    background-image: url(images/1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 5px 5px grey;
+    border:2px solid #9CD1BA;
+  }
+
+  .plans{
+    width: 460px;
+    height: 165px;
+    background:;
+    margin:0 auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-image: url(images/2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 5px 5px grey;
+    border:1.5px solid white;
+  }
+
+  .plans:hover{
+    width: 460px;
+    height: 165px;
+    opacity: 70%;
+    transition: 2s;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 15px;
+    background-image: url(images/2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 5px 5px grey;
+  }
+
+  .tutorials{
+    width: 460px;
+    height: 165px;
+    background: pink;
+    margin:0 auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-image: url(images/3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 5px 5px grey;
+    border:1.5px solid white;
+  }
+
+  .tutorials:hover{
+    width: 460px;
+    height: 165px;
+    opacity: 70%;
+    transition: 2s;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 15px;
+    background-image: url(images/3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 5px 5px grey;
+
+  }
+
+/*----------menu fijo----------------*/
+  .menu{
+    height: 50px;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    background: white;
+    margin-top: 0 auto;
+    z-index: 100vh;
+
+  }
+
+  .menu li a{
+    text-decoration: none;
+    color:black;
+    position: fixed
+    padding:15px;
+    display:block;
+  }
+
+  .inicio{
+    height: 40px;
+    width: 40px;
+    margin-top:5px;
+    margin-left: -40px;
+    background-image: url(images/casa.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  .inicio:hover{
+    opacity: 50%;
+    transition:1s;
+  }
+
+  .amigos{
+    height: 35px;
+    width: 44px;
+    background:;
+    margin-top:6px;
+    background-image: url(images/amigos.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .amigos:hover{
+    opacity: 50%;
+    transition:1s;
+  }
+  .muntanya{
+    height: 40px;
+    width: 60px;
+    background:;
+    margin-top:6px;
+    background-image: url(images/munta.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  .muntanya:hover{
+    opacity: 50%;
+    transition:1s;
+  }
+
+  .perfil{
+    height: 40px;
+    width: 40px;
+    background:;
+    margin-top:5px;
+    background-image: url(images/perfil.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .perfil:hover{
+    opacity: 50%;
+    transition:1s;
+  }
+
+
+
+}
