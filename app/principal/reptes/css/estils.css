@@ -1,0 +1,211 @@
+@media screen and (max-width:750px){
+  body{
+    padding: 0;
+    margin: 0;
+    background:white ;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    background-image: url(images/1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  #preloader{
+    background:#9CD1BA url(images/loader.png) no-repeat center center;
+    background-size:30%;
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index:100;
+  }
+/*----------video y calendario----------------*/
+.vica{
+  list-style: none;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  display:Flex;
+  justify-content: space-between;
+  background:;
+  margin-top: 20px;
+}
+
+.vica li a{
+  text-decoration: none;
+  display:block;
+}
+
+.nombre{
+  width: 200px;
+  height: 40px;
+  float:left;
+  margin-left: 10px;
+  background:;
+  margin-top: -10px;
+}
+
+  h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+
+.flecha{
+  width: 50px;
+  height: 40px;
+  float:left;
+  margin-left: 20px;
+  background:;
+  background-image: url(images/flecha.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.calendario{
+  width: 41px;
+  height: 40px;
+  float:right;
+  margin-right: 20px;
+  list-style: none;
+  background:;
+  background-image: url(images/calendario.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+  /*---------CATEGORIAS----------------*/
+
+  .reptes{
+    width: 100%;
+    height: 617px;
+    margin:0 auto;
+    background:;
+  }
+
+  .reptes .retos{
+    width: 150px;
+    height: 145px;
+    margin:0 auto;
+    float: left;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius: 10px;
+    border:1.6px solid #9CD1BA;
+  }
+
+#uno{
+    background: ;
+    background-image: url(images/clim.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    position: center;
+}
+
+#uno:hover{
+    background:;
+    background-image: url(images/1clim.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    transform:rotateY(360deg);
+    transition:1s;
+}
+
+#bloqueados{
+  background-image: url(images/monedas.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  position: center;
+  opacity: 100%;
+}
+#bloqueados:hover{
+  background-image: url(images/monedas.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  position: center;
+  opacity: 90%;
+}
+  h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin:10px 10px 10px 10px;
+  }
+/*----------menu fijo----------------*/
+.menu{
+  height: 50px;
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+  background: white;
+  margin-top: 0 auto;
+  z-index: 100vh;
+
+}
+
+.menu li a{
+  text-decoration: none;
+  color:black;
+  position: fixed
+  padding:15px;
+  display:block;
+}
+
+.inicio{
+  height: 40px;
+  width: 40px;
+  margin-top:5px;
+  margin-left: -40px;
+  background-image: url(images/casa.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.inicio:hover{
+  opacity: 50%;
+  transition:1s;
+}
+
+.amigos{
+  height: 35px;
+  width: 44px;
+  background:;
+  margin-top:6px;
+  background-image: url(images/amigos.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.amigos:hover{
+  opacity: 50%;
+  transition:1s;
+}
+.muntanya{
+  height: 40px;
+  width: 60px;
+  background:;
+  margin-top:6px;
+  background-image: url(images/munta.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.muntanya:hover{
+  opacity: 50%;
+  transition:1s;
+}
+
+.perfil{
+  height: 40px;
+  width: 40px;
+  background:;
+  margin-top:5px;
+  background-image: url(images/perfil.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.perfil:hover{
+  opacity: 50%;
+  transition:1s;
+}
+
+}
