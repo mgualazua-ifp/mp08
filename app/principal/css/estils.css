@@ -102,7 +102,7 @@ body{
 
   }
   .retos{
-    width: 460px;
+    width: 420px;
     height: 165px;
     background:black;
     border-radius: 10px;
@@ -116,7 +116,7 @@ body{
     border:1.5px solid white;
   }
   .retos:hover{
-    width: 460px;
+    width: 420px;
     height: 165px;
     opacity: 70%;
     transition: 2s;
@@ -132,7 +132,7 @@ body{
   }
 
   .plans{
-    width: 460px;
+    width: 420px;
     height: 165px;
     background:;
     margin:0 auto;
@@ -147,7 +147,7 @@ body{
   }
 
   .plans:hover{
-    width: 460px;
+    width: 420px;
     height: 165px;
     opacity: 70%;
     transition: 2s;
@@ -162,7 +162,7 @@ body{
   }
 
   .tutorials{
-    width: 460px;
+    width: 420px;
     height: 165px;
     background: pink;
     margin:0 auto;
@@ -177,7 +177,7 @@ body{
   }
 
   .tutorials:hover{
-    width: 460px;
+    width: 420px;
     height: 165px;
     opacity: 70%;
     transition: 2s;
